@@ -26,5 +26,3 @@ def form_fill():
     genderx[0].click()
     q1x[0].click()
     submitbutton.click()
-
-    #print(browser.window_handles)
