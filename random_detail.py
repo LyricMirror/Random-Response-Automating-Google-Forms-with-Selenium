@@ -35,8 +35,3 @@ def select_q1_answer():
     answer = ['//*[@id="i32"]', '//*[@id="i35"]', '//*[@id="i38"]']
     random_answer = random.choice(answer)
     return random_answer
-
-
-def display_name_email():
-    display = generate_random_name() + " " + generate_random_email()
-    return display
